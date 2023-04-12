@@ -49,4 +49,4 @@ df = pd.DataFrame(data1)
 df['country'] = ['USA', 'USA', 'USA', 'USA']
 
 # hiển thị DataFrame
-print(df)
+st.write(df)
