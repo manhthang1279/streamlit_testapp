@@ -38,3 +38,15 @@ filtered_data = data[data[DATE_COLUMN].dt.hour == hour_to_filter]
 
 st.subheader('Map of all pickups at %s:00' % hour_to_filter)
 st.map(filtered_data)
+
+# tạo DataFrame từ một dictionary
+data1 = {'name': ['John', 'Jane', 'Bob', 'Alice'],
+         'age': [30, 25, 40, 35],
+         'city': ['New York', 'San Francisco', 'Seattle', 'Chicago']}
+df = pd.DataFrame(data1)
+
+# thêm một cột mới vào DataFrame
+df['country'] = ['USA', 'USA', 'USA', 'USA']
+
+# hiển thị DataFrame
+print(df)
