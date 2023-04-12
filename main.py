@@ -50,3 +50,4 @@ df['country'] = ['USA', 'USA', 'USA', 'USA']
 
 # hiển thị DataFrame
 st.write(df)
+st.checkbox('Checkbox')
