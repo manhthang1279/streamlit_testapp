@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 
 st.title('Uber pickups in NYC')
+st.subheader("By manhthang1279")
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
